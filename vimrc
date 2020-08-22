@@ -8,6 +8,9 @@ set t_Co=256
 set hlsearch
 
 
+set cursorline
+hi CursorLine ctermbg=235
+
 set guicursor=n-v-c:block-Cursor
 set guicursor+=i:ver100-iCursor
 set guicursor+=n-v-c:blinkon0
