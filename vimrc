@@ -11,11 +11,6 @@ set hlsearch
 set cursorline
 hi CursorLine ctermbg=235
 
-set guicursor=n-v-c:block-Cursor
-set guicursor+=i:ver100-iCursor
-set guicursor+=n-v-c:blinkon0
-set guicursor+=i:blinkwait10
-set guicursor=i:ver100-iCursor
 
 " ctrl find file path ctrlp-vim config
 set shell=/bin/bash
