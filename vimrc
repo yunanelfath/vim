@@ -44,6 +44,11 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ }
 let g:NERDTreeGitStatusGitBinPath ='/mingw64/bin/git'
 nnoremap <F5> :NERDTreeToggle<CR>
+nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>
+
+
+let metadata = system('ls -lah ')
+
 
 " airline config
 
