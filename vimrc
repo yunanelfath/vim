@@ -74,12 +74,14 @@ let g:git_messenger_git_command='/mingw64/bin/git'
 " Shortcut
 nnoremap ,<space> :nohlsearch<CR>
 nnoremap <F3> :set hlsearch!<CR>
-nnoremap 2 :tabn<CR>
-nnoremap 1 :tabp<CR>
+nnoremap <F1> :tabn<CR>
+nnoremap <F2> :tabp<CR>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+nnoremap B :Git blame<CR>
+nnoremap q :q<CR>
 
 
 " vim-plug
