@@ -44,9 +44,8 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Clean'     :'✔︎',
                 \ 'Unknown'   :'?',
                 \ }
-
 let g:NERDTreeGitStatusGitBinPath ='/mingw64/bin/git'
-
+nnoremap <F5> :NERDTreeToggle<CR>
 
 " airline config
 
