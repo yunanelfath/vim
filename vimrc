@@ -87,7 +87,7 @@ nnoremap <C-H> <C-W><C-H>
 
 " vim-plug
 
-call plug#begin('~/.vim/autload/plug.vim')
+call plug#begin('~/.vim/plugged')
 
 Plug 'pangloss/vim-javascript'
 Plug 'leafgarland/typescript-vim'
