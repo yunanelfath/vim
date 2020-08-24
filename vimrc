@@ -43,7 +43,7 @@ let g:NERDTreeGitStatusIndicatorMapCustom = {
                 \ 'Unknown'   :'?',
                 \ }
 let g:NERDTreeGitStatusGitBinPath ='/mingw64/bin/git'
-nnoremap <F5> :NERDTreeToggle<CR>
+nnoremap <F11> :NERDTreeToggle<CR>
 nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>
 
 
