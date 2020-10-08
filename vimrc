@@ -26,23 +26,13 @@ let g:ctrlp_working_path_mode = 'ra'
 
 " nerdtree config
 let NERDTreeShowHidden=1
-let g:NERDTreeGitStatusShowIgnored = 1
+"let g:NERDTreeGitStatusShowIgnored = 1
 let g:NERDTreeGitStatusUntrackedFilesMode = 'all'
 let g:NERDTreeGitStatusShowClean = 1
 let g:NERDTreeGitStatusConcealBrackets = 0
-let g:NERDTreeGitStatusIndicatorMapCustom = {
-                \ 'Modified'  :'✹',
-                \ 'Staged'    :'✚',
-                \ 'Untracked' :'✭',
-                \ 'Renamed'   :'➜',
-                \ 'Unmerged'  :'═',
-                \ 'Deleted'   :'✖',
-                \ 'Dirty'     :'✗',
-                \ 'Ignored'   :'☒',
-                \ 'Clean'     :'✔︎',
-                \ 'Unknown'   :'?',
-                \ }
-let g:NERDTreeGitStatusGitBinPath ='/mingw64/bin/git'
+let g:NERDTreeGitStatusIndicatorMapCustom = {'Modified'  :'✹', 'Staged'    :'✚','Untracked' :'✭','Renamed'   :'➜','Unmerged'  :'═', 'Deleted'   :'✖','Dirty'     :'✗','Ignored'   :'☒','Clean'     :'✔︎','Unknown'   :'?',}
+" let g:NERDTreeGitStatusGitBinPath ='/mingw64/bin/git' "it for windows
+let g:NERDTreeGitStatusGitBinPath='/usr/bin/git' "it fow linux
 nnoremap <F11> :NERDTreeToggle<CR>
 nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>
 
