@@ -75,6 +75,7 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 nnoremap B :Git blame<CR>
 nnoremap q :q<CR>
+nnoremap <C-n> :tabnew<CR>
 
 nnoremap N :NERDTreeToggle<CR>
 nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>
