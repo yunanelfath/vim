@@ -33,9 +33,7 @@ let g:NERDTreeGitStatusConcealBrackets = 0
 let g:NERDTreeGitStatusIndicatorMapCustom = {'Modified'  :'✹', 'Staged'    :'✚','Untracked' :'✭','Renamed'   :'➜','Unmerged'  :'═', 'Deleted'   :'✖','Dirty'     :'✗','Ignored'   :'☒','Clean'     :'✔︎','Unknown'   :'?',}
 " let g:NERDTreeGitStatusGitBinPath ='/mingw64/bin/git' "it for windows
 let g:NERDTreeGitStatusGitBinPath='/usr/bin/git' "it fow linux
-nnoremap <F11> :NERDTreeToggle<CR>
-nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>
-
+" let g:NERDTreeMapOpenInTab='<ENTER>'
 
 let metadata = system('ls -lah ')
 
@@ -69,14 +67,18 @@ let g:git_messenger_git_command='/mingw64/bin/git'
 " Shortcut
 nnoremap ,<space> :nohlsearch<CR>
 nnoremap <F3> :set hlsearch!<CR>
-nnoremap <F1> :tabn<CR>
-nnoremap <F2> :tabp<CR>
+nnoremap <Tab> :tabn<CR>
+nnoremap <Tab> :tabp<CR>
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 nnoremap B :Git blame<CR>
 nnoremap q :q<CR>
+
+nnoremap N :NERDTreeToggle<CR>
+nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>
+
 
 
 " vim-plug
